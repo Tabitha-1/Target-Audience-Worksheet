@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Your Ideal Audience</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 20px;
+      background-color: #f8f4f0;
+      /* Soft, calming background */
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-family: 'Lora', serif;
+      color: #6a5acd;
+      /* A gentle purple */
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .question {
+      margin-bottom: 25px;
+      padding: 15px;
+      background-color: #e6e6fa;
+      /* Light lavender background for questions */
+      border-left: 4px solid #6a5acd;
+      border-radius: 5px;
+    }
+
+    .question strong {
+      color: #483d8b;
+      /* Slightly darker purple */
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1em;
+      min-height: 80px;
+      /* Provide ample writing space */
+      box-sizing: border-box;
+      /* Include padding and border in element's total width and height */
+      resize: none;
+      /* Prevent manual resizing */
+      overflow: hidden;
+      /* Hide scrollbar */
+    }
+
+    .all-answers-section {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #fffacd;
+      /* Light yellow background */
+      border: 1px dashed #ffa500;
+      /* Orange dashed border */
+      border-radius: 8px;
+    }
+
+    .all-answers-section h2 {
+      font-family: 'Lora', serif;
+      color: #d2691e;
+      /* Chocolate color */
+      margin-top: 0;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .all-answers-section p {
+      margin-bottom: 15px;
+    }
+
+    #allAnswersTextarea {
+      min-height: 150px;
+      /* More space for collected answers */
+    }
+
+    .print-button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .print-button {
+      background-color: #6a5acd;
+      /* Gentle purple */
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .print-button:hover {
+      background-color: #483d8b;
+      /* Slightly darker purple */
+    }
+
+    .encouragement {
+      text-align: center;
+      margin-top: 40px;
+      font-style: italic;
+      color: #808080;
+      /* Grey for subtle text */
+    }
+
+    @media print {
+      body {
+        background-color: #fff;
+        margin: 0;
+      }
+
+      .container {
+        box-shadow: none;
+        padding: 0;
+      }
+
+      .print-button-container {
+        display: none;
+      }
+
+      textarea {
+        border: 1px dashed #ccc;
+        /* Show border for textareas in print */
+        min-height: 60px;
+        /* Slightly less height for print */
+      }
+
+      .all-answers-section {
+        border: 1px dashed #ffa500;
+        /* Show border in print */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Discover Your Ideal Audience</h1>
+    <p>Let's explore who you're creating your inspiring "faceless quotes" for. Thinking about these questions will help
+      you connect with the wonderful people you want to reach!</p>
+
+    <div class="question">
+      <strong>Who is that one person I really want to reach with my message?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>How old are they, generally?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>What might their day look like?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>What kinds of things are they really interested in, besides inspiring quotes?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>What are some things they might be struggling with or finding challenging right now?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>What kind of hopes and dreams do they have for themselves?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>What kind of things do they already look at or follow on social media?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>What values are important to them?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="question">
+      <strong>How can my "faceless quotes" pop up on their screen and make their day just a little bit better?</strong>
+      <textarea class="auto-expand" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="all-answers-section">
+      <h2>Your Audience Snapshot</h2>
+      <p>Once you've filled out the questions above, your answers will appear here. You can then copy this text and
+        paste it into a chatbot (like the ones we discussed!) and ask it to help you write a description or prompt about
+        your target audience for your content planning.</p>
+      <textarea id="allAnswersTextarea" readonly
+        placeholder="Your combined answers will appear here automatically as you type in the questions above."></textarea>
+    </div>
+
+
+    <p class="encouragement">Take your time with these questions. The clearer you are on who you're talking to, the more
+      your message will resonate!</p>
+
+    <div class="print-button-container">
+      <button class="print-button" onclick="window.print()">Print Now</button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const textareas = document.querySelectorAll('.auto-expand');
+      const allAnswersTextarea = document.getElementById('allAnswersTextarea');
+
+      function autoExpand(element) {
+        element.style.height = 'auto'; // Reset height
+        element.style.height = (element.scrollHeight) + 'px'; // Set to scroll height
+      }
+
+      function updateAllAnswers() {
+        let allText = '';
+        textareas.forEach((textarea, index) => {
+          // You can add question numbers or titles here if desired
+          // For simplicity, just combining the text
+          allText += (index > 0 ? '\n\n---\n\n' : '') + textarea.value;
+        });
+        allAnswersTextarea.value = allText;
+        autoExpand(allAnswersTextarea); // Also expand the combined textarea
+      }
+
+      textareas.forEach(textarea => {
+        textarea.addEventListener('input', function () {
+          autoExpand(this);
+          updateAllAnswers(); // Update combined text on every input
+        });
+        // Initial adjustment in case there's pre-filled content (though placeholder used here)
+        autoExpand(textarea);
+      });
+
+      // Initial update for the combined textarea
+      updateAllAnswers();
+    });
+  </script>
